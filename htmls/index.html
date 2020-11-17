@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class= 'container'>
+    <nav>
+       <a href="index.html"> <img class="logo"  src="../img/logo.jpg" alt="" width="40px" height="25px"></a>
+
+    <a  href="apropo.html" > about</a>
+    <a  href="contact.html" >contact</a>
+    </nav>
+    
+        <div class="container_content">
+        <div class="container_content_inner">
+        <div class="title">
+          <h1>yasta sport</h1>
+        </div>
+        <div class="par">
+        <p>
+        Cupiditate alias odio omnis minima veritatis saepe porro, repellendus natus vitae, sequi exercitationem ipsam, qui possimus sit eveniet laborum sapiente quisquam quae neque velit? 
+        </p>
+        </div>
+        <div class="btns">
+            
+        <button class='btns_more'  > See more </button>
+        </div>
+        </div>
+        </div>
+        
+
+        <div class="w3-content w3-section" style="max-width:500px">
+          <img class="mySlides" src="../img/1.jpg" style="width:100%">
+          <img class="mySlides" src="../img/2.jpg" style="width:100%">
+          <img class="mySlides" src="../img/3.jpg" style="width:100%">
+          <img class="mySlides" src="../img/4.jpg" style="width:100%">
+        </div>
+        
+        <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+        
+        <div class="overlay"></div>
+
+
+
+
+
+
+   
+    
+      
+      
+  
+</body>
+</html>
