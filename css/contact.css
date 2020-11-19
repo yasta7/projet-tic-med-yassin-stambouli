@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 nav{
     margin: 0 auto;
@@ -27,23 +28,55 @@ nav{
   .logo{padding-top: 8px;
     float: left;
   }
-  .form{
+  .form{ margin-left:35% ;
+    width: 30%;
+ 
+    line-height: 50px;
+    background-color: #2f3640;
+  color: white;
+  padding-left: 25px;
     
-    padding-top: 200px;
-    
-    text-align: center;
   }
+ 
     .title{   
       margin-top: 80px;
       text-align: center;
-      color: #353b48;
+      color: black;
       
     }
 
 
-
+.env{
+  margin-left: 35%;
+  width: 100px;
+  height: 35px;
+  margin-top: 0;
+}
    
-  
+ 
+
+body{
+  height: 500px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 footer{
   margin-left: 0px;
